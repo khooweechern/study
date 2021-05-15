@@ -1,0 +1,13 @@
+*{  margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+div {
+    float: left;
+    width: 31.33%;
+    padding-top: 31.33%;
+    margin: 1%;
+    background-color: orange;
+    border-radius: 5%;
+}
