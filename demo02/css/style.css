@@ -1,0 +1,77 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    position: relative;
+    background-color: #68cdd5;
+}
+/* 返回按钮 */
+.return {
+    position: absolute;
+    top: 20px;
+    left: 15px;
+    width: 30px;
+    height: 30px;
+    background: url(../images/return.png) no-repeat;
+    background-size: 30px;
+}
+.w {
+    width: 100%;
+    min-width: 320px;
+    padding: 115px 50px;
+}
+/* logo部分 */
+.logo img {
+    display: block;
+    margin: 0 auto;
+}
+/* 内容部分 */
+/* 大屏下文字居中会好看点 */
+@media screen and (min-width:1024px) {
+    p {
+        text-align: center;
+    }
+}
+p { 
+    display: block;
+    width: 100%;
+    height: 190px;
+    margin: 120px auto;
+    font-size: 18px;
+    color: #fff;
+}
+/* 按钮部分 */
+.box {
+    display: flex;
+    width: 100%;
+    flex-direction:row;
+    justify-content: space-between;
+}
+[class^=btn] {
+    width: 122px;
+    height: 126px;
+    text-align: center;
+    cursor: pointer;
+}
+[class^=btn] img {
+    display: block;
+    width: 50px;
+    height: 50px;
+    margin: 0 auto;
+}
+[class^=btn] span {
+    color: #fff;
+    font-size: 18px;
+}
+.btn1 {
+    flex: 1;
+}
+/* 为了让按钮左右分开放了个空盒子 */
+.blank {
+    width: 100%;
+}
+.btn2 {
+    flex: 1;
+}
