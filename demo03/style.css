@@ -32,7 +32,9 @@ input {
     /* color:#e1e5e7; */
 }
 header {
-    position: relative;
+    position: fixed;
+    top: 0;
+    left: 0;
     width: 100%;
     min-width: 320px;
     height: 60px;
@@ -68,7 +70,9 @@ header h1 {
     font-weight: 400;
     color: #fff;
 }
-
+main {
+    margin-top: 70px;
+}
 div {
     display: flex;
     width: 100%;
